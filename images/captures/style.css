@@ -1,0 +1,150 @@
+*{ margin: 0; 
+   padding: 0;}
+body{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ---------------------------------
+         SECTION HEADER
+--------------------------------- */
+#nav-bar{
+     position: sticky; 
+     top: 0; 
+     z-index: 1; }
+.navbar-nav li{
+     padding: 0 10px;
+    }
+.navbar-nav li a{
+     color: black !important;
+     font-weight: 600;
+     float: right;
+     text-align: left;
+    }
+.navbar-toggler{
+     outline: none !important; 
+    }
+#navbarNav .btn{
+     color: #fff;
+     font-weight: 600;
+    }
+
+/* ---------------------------------
+         SECTION HOME
+--------------------------------- */
+#home .container .left{ 
+    color: #fff; 
+    background: linear-gradient(to right, #0D423D, #0CC7B5); 
+    border-radius: 5px;
+}
+#home .container .right .card{ 
+    border: none;
+}
+#home .container .left .btn{
+     color: #fff; 
+     background: #F44336; 
+     border: none;
+    }
+.card-text{
+    padding-top: 20%;
+    
+}
+.mon{
+    padding-left: 22%;
+}
+
+/* ---------------------------------
+         SECTION PROGRAMMES
+--------------------------------- */
+#program .row .left{ 
+    background-color: #0D423DE5;}
+.col-lg{
+    margin-top: 10%;
+}
+
+/* ---------------------------------
+         SECTION COURS
+--------------------------------- */
+#cours .p1{ 
+    color: #F44336;
+}
+#cours .p2{ 
+    color: #009688;
+}
+#cours .p3{ 
+    color: #FF9800;
+}
+#cours .p4{ 
+    color: #009688;
+}
+
+/* ---------------------------------
+         SECTION DIPLÔMES
+--------------------------------- */
+#diplome .diplome{ 
+    background-color: #F44336;
+}
+#diplome .bas img { 
+    width: 100%; 
+    height: 150px;
+}
+
+/* ---------------------------------
+         SECTION COACHs
+--------------------------------- */
+#coach .row{ 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+#coach .row .card img { 
+    width: 25%;
+}
+
+/* ---------------------------------
+         SECTION ACTIVITES
+--------------------------------- */
+#activite{ 
+    background: #F44336; 
+    color: #fff;}
+#activite .haut img{ 
+    width: 100%; 
+    height: 150px;
+}
+
+/* ---------------------------------
+         SECTION PARTENAIRES
+--------------------------------- */
+#partenaire{ 
+    background-color: #EEF9F8E5;
+}
+#partenaire .btnz{ 
+    width: 120px; 
+    margin: auto;
+}
+
+/* ---------------------------------
+         SECTION FOOTER
+--------------------------------- */
+#footer{
+    background-color: #009688;
+}
+
+/* ---------------------------------
+         RESPONSIVITE
+--------------------------------- */
+@media screen and (max-width: 900px){
+    #home .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #coach .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #activite .container-fluid .row{
+        display: flex;
+        flex-direction: column;
+    }
+    button{ width: 120px;}
+    #partenaire .btnz{ margin: auto;}
+    #coach .btnx{ margin: auto;}
+}
